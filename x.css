@@ -1,0 +1,58 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 500px;
+}
+body{
+    height: 145%;
+}
+.container{
+    background: linear-gradient(125deg, green,yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.content{
+  text-align: center;
+  background-color: grey;
+  padding: 1rem;
+  border-radius: 5px;
+  max-width: 350px;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+}
+h1{
+    color: maroon;
+    margin-bottom: 5px;
+}
+p{
+    color: darkblue;
+    margin-bottom: 8px;
+}
+form{
+    justify-content: center;
+    flex-direction: column;
+}
+input[type="email"]{
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    width: 340px;
+    text-align: center;
+    display: flex;
+}
+button{
+    padding: 5px;
+    width: 100px;
+    justify-content: center;
+    box-shadow: 0 2px 5px blueviolet;
+}
+button:hover{
+    background-color: aquamarine;
+}
